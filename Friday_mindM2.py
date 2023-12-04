@@ -26,6 +26,7 @@ iteration = 0
 while True:
     try:
         user_input = listen()
+        print(user_input)
         bot_response = bot.get_response(user_input)
         print(bot_response)
         generate = input("Generate? Y/N:")
