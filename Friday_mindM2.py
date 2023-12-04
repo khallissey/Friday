@@ -14,7 +14,7 @@ bot = ChatBot(
         {
             'import_path': 'chatterbot.logic.BestMatch',
             'default_response': 'I am sorry, but I do not understand.',
-            'maximum_similarity_threshold': 0.50
+            'maximum_similarity_threshold': 0.90
         }
     ])
 trainer = ChatterBotCorpusTrainer(bot)
@@ -27,8 +27,6 @@ while True:
     try:
         user_input = listen()
         bot_response = bot.get_response(user_input)
-
-
         print(bot_response)
         generate = input("Generate? Y/N:")
         if generate == 'Y':
