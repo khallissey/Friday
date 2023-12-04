@@ -1,12 +1,6 @@
 This is a forked repo from the original Bark repo, which I highly recommend you go and visit! In order to run my code you will need the following packages: 
--chatterbot
--noisereduce
--scipy
--playsound
--torch
--speech_recognition
--pyttsx3
-Once you are ready, run the Friday_mindM2.py file and enjoy!
+chatterbot, noisereduce, scipy, playsound, torch, speech_recognition, and
+pyttsx3. Once you are ready, run the Friday_mindM2.py file and enjoy!
 
 > Notice: Bark is Suno's open-source text-to-speech+ model. If you are looking for our new text-to-music model, Chirp, have a look at our [Chirp Examples Page](https://suno.ai/examples/chirp-v1) and join us on [Discord](https://suno.ai/discord). 
 
